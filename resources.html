@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body style="background-color: rgb(255, 252, 248)">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Explore.html" class="w3-bar-item w3-button w3-hide-small"> STORIES</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-hide-small"> RESOURCES</a>
+  </div>
+
+  <!-- Navbar for small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+      <a href="Explore.html class="class="w3-bar-item w3-button" onclick="toggleFunction()">STORIES</a>
+      <a href="resources.html" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Resources</h3>
+  <p class="w3-center" style="font-size: large;">Here is a collection of various online resources that are helpful for learning more about Greek Mythology</p><br>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <p><b>Classical Mythology</b></p>
+        <p>This website is a supplement to the renowned and best-selling book, <em>Classical Mythology</em>. This website has many different resources for students and teachers.</p>
+        <a href="https://global.oup.com/us/companion.websites/9780195397703/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+    </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Encylopedia Mythica</b></p>
+          <p>This award winning encyclopedia covers terms from mythology, folklore and even religion.</p>
+          <br>
+          <br>
+          <a href="https://pantheon.org/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Encylopedia Greek Mythology</b></p>
+          <p>This is another really helpful encyclopedia that focuses specifically on Greek Mythology.</p>
+          <br>
+          <br>
+          <a href="http://www.mythweb.com/encyc/index.html"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <p><b>Greek Mythology</b></p>
+        <p>This website provides detailed descriptions about various Greek Mythology topics. There is also a complementary app available on the Apple App Store and Google Play Store.</p>
+        <a href="https://www.greekmythology.com/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+    </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Greek Mythology Link</b></p>
+          <p>This website, maintained by the Hellenic Studies Association at Brown University, provides access to the many myths that were retold by Carlos Parada.</p>
+          <a href="http://www.maicar.com/GML/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Perseus Project</b></p>
+          <p>This website contains a very large collection of all sorts of resources. It contains material for everyone, from beginners to professionals.</p>
+          <br>
+          <a href="http://www.perseus.tufts.edu/hopper/search?redirect=true"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-white">
+        <p><b>Internet Sacred Test Archive</b></p>
+        <p>This website has the largest free archive of tbooks on folklore, mythology, religion and more.</p>
+        <br>
+        <br>
+        <a href="https://www.sacred-texts.com/index.htm"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+    </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>Theoi Greek Mythology</b></p>
+          <p>This website aims to provide detailed descriptions of Greek gods, sprits, creatures and heroes.</p>
+          <br>
+          <br>
+          <a href="https://www.theoi.com/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-white">
+          <p><b>World Myths and Legends in Art</b></p>
+          <p>This online resource, provided by Minneapolis Institute of the Arts, mainly provides pieces of work inspired by mythology to teachers. </p>
+          <br>
+          <a href="https://www.jcf.org/resources/world-myths-and-legends-in-art/"><button class="w3-button w3-black" style="margin-left: 30%;">Website</button></a>
+      </div>
+      </div>
+  </div>
+    
+</div>
+
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

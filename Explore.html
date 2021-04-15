@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* for small screens */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body style="background-color: rgb(255, 252, 248)">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Explore.html" class="w3-bar-item w3-button w3-hide-small"> STORIES</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-hide-small"> RESOURCES</a>
+  </div>
+
+  <!-- Navbar for small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="Explore.html class="class="w3-bar-item w3-button" onclick="toggleFunction()">STORIES</a>
+    <a href="resources.html" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Read Stories</h3>
+  <p class="w3-center" style="font-size: large;">Explore different stories about Mythology. Click on the images to read the stories.<br><em>Thankyou to all the blogs, websites and photographers who provided the stories and photos. Each author and photographer that contributed a story is noted so please check them out!</em></p><br>
+
+  <!-- Stories Part -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+    <p>The Battle of The Gods and Titans</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-the-titanomachy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="According to Hesiod’s Theogony, in the beginning, there was only Chaos. Dense darkness covered everything until the Earth was born out of Chaos and the mountains, the sea, and then the sky (Uranus) with the sun, the moon and the stars. Then Uranus and Earth came together and gave birth to the Titans. But, Uranus was afraid that one of his children would take his throne. That is why he enclosed every one of them in the depths of the Earth. But his son, Cronus, the strongest of the Titans, defeated him and became world leader. He married Rhea, who gave birth to two gods and three goddesses: Hades, Poseidon, Hera, Hestia and Demeter.
+
+      But Cronus inherited the fear of his father and believed that one of his offspring would later take his throne. So, when they were born, he swallowed them. However, Rhea was expecting a sixth child and fearing it would share the same fate with her other children, she secretly gave birth on a mountain in Crete and hid the newborn there. She named the child Zeus. She also tricked 
+      Cronus into thinking he swallowed this child too, by giving him a stone wrapped in swaddling clothes, which Cronus swallowed thinking it was his newborn. The Nymphs took care of Zeus and fed the baby with the milk of a goat. When he grew up, Zeus found his father and tricked him into drinking a mixture of wine and mustard, which caused him to disgorge the contents of his stomach. 
+      Zeus’ older brothers and sisters came out of Cronus fully grown! This is how the great Titanomachy began, the war between the Titans and the Gods, with Zeus as their leader. This titanic battle lasted for ten years. The gods defeated the Titans and threw them into Tartarus, a dark and gloomy place as far from the earth as earth is from the sky. Then the gods fought with the Giants 
+      for the dominance of the world. The Gigantomachy lasted a long time as well. But the gods were again victorious. Thus, Zeus became the ruler of the whole world and he and the other gods settled in Olympus. (This image was given by Joachim Wtewael and the story was taken directly from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-mythology)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+    <p>The Fates</p>
+    
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-the-three-Moirae.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="In Greek mythology, the Moirae are the three goddesses of fate. Clotho, Lachesis and Atropos. The three sisters weave the fate of humans and gods alike. Neither human nor God has the power to influence or question their judgment and actions! Clotho, the youngest one, spins the thread of life; she is the very origin, the creation of life itself and her thread is spun upon the birth of a person!
+
+      Lachesis, the second sister, is the one that allocates the fate of people during life. The name comes from the Greek word ‘λαγχάνω’ which means to obtain from lots. In that sense, one can understand that their destiny is chosen out of a myriad of possibilities. It is said that Lachesis measures the thread of life with her rod, determining its length and nature. 
+      The last sister of fate is Atropos, the unturning. Atropos is the cutter of the thread of life and with her shears she determines how someone will die. (This image was provided by John Melhuish Strudwick and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+    <p>Persophone's Kidnapping</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-the-abduction-of-Persephone-by-Hades.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Persephone was the daughter of Demeter and Zeus. As Persephone grew, so did her beauty. When Hades, the god of the Underworld, saw her, he immediately fell in love with her and decided to abduct her. According to the Homeric Hymn to Demeter, one sunny day the young Persephone was gathering flowers in a field, accompanied by her close friends, the Ocean Nymphs. The carefree Persephone moved away from her companions in search of the most beautiful flower. When she reached out to pluck a wondrous narcissus, Earth yawned open and Hades appeared in his golden chariot 
+      and snatched her away to the Underworld while she was in tears. Demeter was looking in vain for her daughter day and night. The land and crops of the earth began to wither. After a while, the Sun, looking at everything from the sky, felt sorry for the goddess and told her what happened. Demeter went to Zeus and demanded that Persephone be returned, or else she would not let the earth blossom again.
+
+      Zeus sent the Messenger God, Hermes, to Hades with the command to release Persephone. Before returning her to Hermes, Hades forced Persephone to eat six pomegranate seeds. Hades knew that if someone ate food in the Underworld, they could never really escape the world of the dead. Persephone was shortly after reunited with her mother. However, Demeter was furious when she heard about the pomegranate seeds. Zeus then proposed a compromise: for every 
+      seed Persephone had eaten, she would spend a month with Hades. Demeter accepted Zeus’ proposal. Thus, Persephone would travel to the Underworld every six months during which time Demeter would mourn and the earth with her. But after six months, Persephone would return to her and Demeter would be happy again and the earth would blossom once again! (This image was provided by Peter Paul Rubens and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+    <p>The Story Behind The Name of Athens</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Athens-and-Poseidon.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cecrops, the first king of Attica, had named his city after him, Cecropia. However, the gods of Olympus saw this lovely piece of land and wanted to name it after them and become its patron. The most persistent rivals were Poseidon, the god of the sea, and Athena, the goddess of wisdom. To solve their dispute, Zeus decided that each of them would present a gift to the city and the people of 
+      Cecropia would decide which gift was the best, and therefore which god would be the patron of the city. One sunny day, Cecrops and the residents of the city went up to a high hill to watch the gods presenting their gifts. Poseidon was the first to present his gift. He struck a rock with his trident and caused a spring of water to gush forth from the ground. This signified that he was assuring the citizens with water and therefore they wouldn’t face any time of drought.
+
+      However, the people were not exactly enchanted with his gift because the water from the spring tasted salty, just like the waters of the sea over which Poseidon ruled. Next, it was the turn of goddess Athena. She struck her spear on the ground and a lovely olive tree jumped out of the earth. The citizens liked this gift better because it would give them food, oil and firewood. This is how Athena became the patroness of the beautiful city and this is how Athens got its name according to Greek Mythology. (This image was provided by Noel Halle and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+        <br>
+    <p>Orpheus and Eurydice</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Orpheus-and-Eurydice.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="In Greek Mythology, Orpheus was the greatest lyre player in the world. He could charm rocks and rivers with his music. When Orpheus fell in love with Eurydice, he wooed her with his song. Their marriage was brief, however, as Eurydice was bitten by a viper and died shortly after. Devastated, Orpheus journeyed to the Underworld to convince Hades and Persephone to return his bride to him. Orpheus managed to pass through Cerberus, the three-headed dog who was the guardian of the gates, 
+      by making him fall asleep with his music. When he played his lyre, the king and queen of the Underworld were moved by his song, and they agreed to let Eurydice live again on one condition: she would follow him while walking out to the light from the darkness of the Underworld, but he should not turn to look at her before she was out to the light. As they started ascending towards the living world, Orpheus began to think it might all be a trick, that the gods were just making fun of him and Eurydice was not really behind him. Unable to hear Eurydice's footsteps, Orpheus finally lost his faith and turned to look back, only a few meters away from the exit. Eurydice 
+      was in fact behind him, as a shade that would become flesh again when she was back into the light. After Orpheus looked at her, Euridice’s shade fell back into the darkness of the Underworld, now trapped in Hades forever. (This image was provided by Carl Goos and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+    <br>
+    <p>The Story of Oedipus</p>
+      <img src="https://www.worldhistory.org/img/r/p/500x600/8014.jpg.avif?v=1599506977" style="width:100%; height: 162px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Laius was the King of Thebes and married to Jocasta. Laius had received an oracle from Delphi saying that his son would kill him and marry his wife. When Jocasta gave birth, Laius tied the baby’s ankles and ordered a shepherd-servant to take it to the mountain and abandon it there to die. However, the shepherd took pity on the baby and passed it to another shepherd who gave it to the King of Corinth and his wife, who did not have any children and raised it as their own. They called the child Oedipus, meaning “swollen feet” in Greek. When Oedipus grew up, he traveled to Delphi where the Oracle gave him the prophecy 
+      that he would kill his own father and marry his mother. Shocked by the words of Apollo, he did not return to Corinth so as to avoid his father and mother. As he was traveling near Thebes, Oedipus met Laius at a crossroads and killed him in a fight, without knowing he was his real father, thus fulfilling the first part of the prophecy.
+
+      When he reached Thebes, he learned of Sphinx, a terrible monster that devoured anyone that did not solve its riddle. It was proclaimed that whoever managed to solve the riddle and kill the Sphinx, he would take the throne of Thebes, by marrying Laius’ widow, Jocasta. Oedipus was successful in solving the riddle and killing the Sphinx. He married Jocasta and together had four children. Little did he know that his children were also his siblings. While Oedipus was at the peak of his happiness, there was an epidemic in Thebes. Oedipus sought the advice of the Oracle of Delphi. The Oracle's answer was that in order to stop the epidemic, 
+      Laius’ killer must be found and punished. The investigation that followed led Oedipus to the truth. Upon realizing the truth, Jocasta, his mother and wife, hanged herself. Oedipus then seized two pins from her dress and blinded himself with them. (This image was provided by Thomas Hawk and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>King Midas</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-King-Midas-and-his-golden-touch.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="In Greek Mythology, Midas was the king of Phrygia and ruled from his castle and its beautiful garden in which “roses grow of themselves, each bearing sixty blossoms and of surpassing fragrance”, according to Herodotus. One day, some of Midas’ people found a drunken old man near the garden and brought him before the king. Midas recognized the old man, 
+      who was god Dionysus’ closest reveler, the satyr Silenus. Instead of punishing him, Midas hosted the satyr for ten days, offering him food, drinks and entertaining him. When he returned him safely to Dionysus, the god felt gratitude and offered Midas to grant him any wish he had. Midas, motivated by his greed, asked that he should be able to turn into gold everything he touched. At first, Midas gained great wealth and power from his unique ability. But he later realized that it was more of a curse than a gift. Even the water and the food that he touched was turning into gold. 
+      He could not enjoy even the simplest joys in life anymore. Midas went back to Dionysus and begged him to take back his power. (This image was provided by Nicolas Poussin and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>Sisyphus</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Sisyphus.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Once upon a time, Corinth was a very strong Greek city-state, the remains of which can be found to this day. Some sources refer to the great city of Efyra as the city founded by Sisyphus, which was later named Corinth. Others say that the witch Medea gave Corinth to Sisyphus, who became its king. One day, Asopos' daughter, Aegina, had been abducted by Zeus and when Asopos asked if Sisyphus had seen anything, 
+      Sisyphus mentioned that he saw Zeus fly over with Aegina. When Zeus heard that, he got really angry that he was betrayed by a mortal. So, the king of the gods sent Death to take Sisyphus' life. However, when Death came to chain Sisyphus, the latter asked Death a demonstration of how the chains work and then deceived Death and chained him instead.
+
+      The imprisonment of Death meant that he could not come for any human and people stopped dying. The gods in response sent Ares, the god of war, to free Death. This time Death took Sisyphus in his chains and led him to the world of the dead, the Underworld, kingdom of Hades. However, before he died, Sisyphus asked his wife, Merope, not to bury him properly by neglecting to put a coin in his mouth. This way he could not pay Charon, the ferryman, to cross the river Styx. 
+      The lack of a proper burial disturbed Hades so much, that he sent Sisyphus back to the living. Thus, Sisyphus managed to escape Death once more. When the gods finally managed to catch Sisyphus again, they decided that his punishment should last forever. They made him push a rock up a mountain; every time the rock would reach the top, it would roll down again and Sisyphus would have to start all over again. (This image was provided by Franz Stuck and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>Leda</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Leda-and-the-Swan-myth.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Another tale from Greek mythology about Zeus is the one with Leda. When the Olympian god saw Leda on the banks of the river Eurotas, felt an overwhelming desire for her. So, he went to Aphrodite and asked for her advice. Aphrodite transformed Zeus into a brilliant swan and herself into an 
+      eagle, and she began pursuing the swan in the river valley. The pursuing Zeus swan sought refuge in the arms of Leda, who received him tenderly and warmed him within her. However, nine months after this incident, she gave birth to two eggs. Not one swan came out of each, but two pairs of twins. On one hand Polydefkis and the beautiful Helen and on the other Castor and Klytemnestra! Her kids became very famous and lead characters to many great ancient tragedies! (This image was provided by Francois Boucher and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)"></div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>Perseus and Andromeda</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Perseus-and-Andromeda.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Long ago, the African Kingdom of Ethiopia was ruled by a king named Cepheus and his queen Cassiopeia. The royal couple had a daughter, Andromeda. One day, the queen boasted about her beauty before the mythical inhabitants of the sea - the Nereids. Nereids became very angry because they believed themselves the most beautiful creatures in the world. They complained to their father, the god of the seas, Poseidon, that he should punish her. The mighty lord of the seas sent a huge sea monster to ravage the coast of Ethiopia, including the vain queen. The desperate King asked for the guidance of Apollo in Delphi. The Oracle advised that no respite would be found until the king and the queen sacrificed their daughter to the monster. To appease Poseidon, Cepheus and Cassiopeia offered, reluctantly, their beloved daughter to be eaten by the monster. The beautiful Andromeda was chained on a seaside rock and awaited her fate.
+
+      Meanwhile, the great hero Perseus was returning from having slain Medusa, riding the winged horse, Pegasus, high in the sky. Passing over Ethiopia, he saw Andromeda chained on the rock and immediately fell in love with her. As the monster was approaching to devour Andromeda, the brave Perseus started fighting it; their fight lasted for a long time. Finally, Perseus used the deadly look of Medusa's severed head, petrifying the huge monster which fell in the sea and became an island. Perseus freed Andromeda from her chains and took her back to the palace of Cepheus where they got married. They lived together happily, having seven sons and two daughters. After Andromeda’s death, goddess Athena placed her among the constellations in the northern sky, near Perseus and Cassiopeia. (This image was provided by Pierre Mignard and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)"></div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>Narcissus</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/30-of-the-Most-Famous-Tales-from-Greek-Mythology-Echo-and-Narcissus-myth.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt=" Echo was a wood Nymph, cursed by Hera to not be able to speak properly, but rather repeat the last words addressed to her. One day, she was wandering around the mountains, until she saw a handsome young man that no one could resist his charm, Narcissus. The Nymph fell in love with the youth, but could not speak to him because of Hera’s curse. So, she was following him from the shadows, silently and in love, waiting patiently for the proper moment. At some point, Narcissus felt her presence and asked “Is anybody here?”, to which Echo replied “here”. A confusing and repetitive conversation followed until Narcissus called her to come out and make love with him. But, as soon as Echo stepped out, Narcissus told her that he’d rather die than give himself to a wood nymph.
+
+      Echo, heartbroken, took refuge in a cave and lost her appetite for food or water. After a while, poor Echo started growing skinny from starvation until her body disappeared, living only dust and her voice. Nemesis, the goddess of revenge against those who show hubris, decided to punish Narcissus for the treatment of poor Echo. The goddess made Narcissus fall in love with his own reflection that he saw in a pond near Echo’s cave. Narcissus could not leave his own reflection out of love and starved to death, like Echo. But, before he dies, Narcissus cried out to his reflection “Farewell, dear boy. Beloved in vain.” Echo’s voice repeated his last words from the cave as Narcissus drew his last breath. To this day, Echo still repeats the last words or phrases in caves or labyrinths. (This image was provided by John William Waterhouse and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">
+    </div>
+
+    <div class="w3-col m3">
+        <br>
+        <p>Arachne</p>
+      <img src="https://greektraveltellers.com/images/Blog/Tales%20of%20Greek%20Mythology/The-most-famous-ancient-Greek-myths-Athena-and-Arachne.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+      alt="In Greek Mythology Gods were powerful and humans should be obedient. But was that always the case? In ancient times there was a beautiful lady called Arachne (meaning “spider” in Greek). She knew the art of loom very well and she weaved beautifully. She boasted that she could weave better than Athena, who was the patroness of the weaving art. She even dared to ask the goddess to a contest. Athena accepted and they began to weave. Athena weaved a representation of her fight with Poseidon over the naming of Athena. Arachne, on the other hand, weaved the naughty adventures of Zeus and the other gods of Olympus. Athena, angered by the hubris Arachne dared to show, transformed her into a spider and cursed her to be hanging from
+       her web for the remainder of her life.  (This image was provided by Peter Paul Rubens and the story was directly taken from https://greektraveltellers.com/blog/30-of-the-most-famous-tales-from-greek-m)">  </div>
+  </div>
+</div>
+
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+ 
+<script>
+// Clicking stuff
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Navbar stuff
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Small screen stuff
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
