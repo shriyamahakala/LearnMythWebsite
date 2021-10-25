@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>Learn Greek Mythology</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+</style>
+<body style="background-color: rgb(248, 237, 222);">
+
+<!-- Navbar-->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">  
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Explore.html" class="w3-bar-item w3-button w3-hide-small">STORIES</a>
+    <a href="form.html" class="w3-bar-item w3-button w3-hide-small"> QUIZ</a>
+    <a href="resources.html" class="w3-bar-item w3-button w3-hide-small"> RESOURCES</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar for small screens-->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="Explore.html"class="w3-bar-item w3-button" onclick="toggleFunction()">STORIES</a>
+    <a href="form.html" class="w3-bar-item w3-button w3-hide-small"> QUIZ</a>
+    <a href="resources.html" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64" id="form" style="text-align:center;">
+    <h1>Test Your Myth Knowledge</h1><br>
+    <p class="w3-text-blue-grey w3-large"><b>Answer the following questions. </b></p>
+    <form action="/action_page.php" target="_blank">
+      <p><b>1. Which Greek hero was called "Tamer of Horses"?</b></p>
+      <input type="radio" name="q0" value = "1"> Paris   
+      <input type="radio" name="q0" value = "2" style="margin-left:10px;"> Hector      
+      <input type="radio" name="q0" value = "3" style="margin-left:10px;"> Apollo   
+      <input type="radio" name="q0" value = "4" style="margin-left:10px;"> Alexander the Great  
+      <p><b>2. In Greek mythology, who flew too close to the Sun?</b></p>
+      <input type="radio" name="q1" value = "1"> Theseus    
+      <input type="radio" name="q1" value = "2" style="margin-left:10px;"> Proteus      
+      <input type="radio" name="q1" value = "3" style="margin-left:10px;"> Pegasus   
+      <input type="radio" name="q1" value = "4" style="margin-left:10px;"> Icarus  
+      <p><b>3. Who was the chief god of the ancient Greeks?</b></p>
+      <input type="radio" name="q2" value = "1"> Hermes   
+      <input type="radio" name="q2" value = "2" style="margin-left:10px;"> Zeus      
+      <input type="radio" name="q2" value = "3" style="margin-left:10px;"> Apollo 
+      <input type="radio" name="q2" value = "4" style="margin-left:10px;"> Minerva  
+      <p><b>4. Who was the Greek goddess of the rainbow?</b></p>
+      <input type="radio" name="q3" value = "1"> Hecate   
+      <input type="radio" name="q3" value = "2" style="margin-left:10px;"> Aphrodite      
+      <input type="radio" name="q3" value = "3" style="margin-left:10px;"> Hera   
+      <input type="radio" name="q3" value = "4" style="margin-left:10px;"> Iris  
+      <p><b>5. How many gods lived on Mount Olympus?</b></p>
+      <input type="radio" name="q4" value = "1"> 400   
+      <input type="radio" name="q4" value = "2" style="margin-left:10px;"> 20      
+      <input type="radio" name="q4" value = "3" style="margin-left:10px;"> 5   
+      <input type="radio" name="q4" value = "4" style="margin-left:10px;"> 12  
+      <p><b>6. What is the name of the Greek goddess of the Earth?</b></p>
+      <input type="radio" name="q5" value = "1"> Aphrodite   
+      <input type="radio" name="q5" value = "2" style="margin-left:10px;"> Hera      
+      <input type="radio" name="q5" value = "3" style="margin-left:10px;"> Gaea   
+      <input type="radio" name="q5" value = "4" style="margin-left:10px;"> Demeter  
+      <p><b>7. Who, in Greek legend, designed the labyrinth of King Minos?</b></p>
+      <input type="radio" name="q6" value = "1"> Odysseus   
+      <input type="radio" name="q6" value = "2" style="margin-left:10px;"> Daedelus      
+      <input type="radio" name="q6" value = "3" style="margin-left:10px;"> Agamemnon   
+      <input type="radio" name="q6" value = "4" style="margin-left:10px;"> Perseus  
+      <p><b>8. How many heads did the monster Typhon have?</b></p>
+      <input type="radio" name="q7" value = "1"> 50   
+      <input type="radio" name="q7" value = "2" style="margin-left:10px;"> 100      
+      <input type="radio" name="q7" value = "3" style="margin-left:10px;"> 80   
+      <input type="radio" name="q7" value = "4" style="margin-left:10px;"> 60  
+      <p><b>9. Which Greek goddess is known as the goddess of chance?</b></p>
+      <input type="radio" name="q8" value = "1"> Tyche   
+      <input type="radio" name="q8" value = "2" style="margin-left:10px;"> Cabeiri      
+      <input type="radio" name="q8" value = "3" style="margin-left:10px;"> Chimera   
+      <input type="radio" name="q8" value = "4" style="margin-left:10px;"> Atropos  
+      <p><b>10. In the <i>Iliad</i>, who were the custodians of the gates of Olympus?</b></p>
+      <input type="radio" name="q9" value = "1"> Hora   
+      <input type="radio" name="q9" value = "2" style="margin-left:10px;"> Iolaus      
+      <input type="radio" name="q9" value = "3" style="margin-left:10px;"> Icarus   
+      <input type="radio" name="q9" value = "4" style="margin-left:10px;"> Hypsipyle  
+      
+      <p><button type="button" class= "w3-button w3-light-grey" onclick="getScore();">Submit</button></p>
+    </form>
+  </div>
+
+  <div class="popup" onclick="myFunction()">
+    <span class="popuptext" id="myPopup">Your score was </span>
+  </div>
+
+
+
+<script>
+
+// Navbar stuff
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+var answers = ["2", "4", "2", "4", "4", "3", "2", "2", "1", "1"];
+function getCheckedValue(radioName){
+    var radios = document.getElementsByName( radioName ); // Get radio group by-name
+    for(var y=0; y<radios.length; y++){
+    	if(radios[y].checked){
+    		return radios[y].value; // return the checked value
+    	}
+    }
+      
+}
+
+function getScore(){
+	  var score = 0;
+	  var value;
+	  for (var i=0; i<10; i++){
+		value = getCheckedValue("q"+i)
+	    if(value===answers[i]){
+	    	score += 1; 
+	    }
+	}
+    alert("You got " + score * 10 + "% right!");
+    location.reload();
+}
+ 
+</script>
+
+</body>
+</html>
+
